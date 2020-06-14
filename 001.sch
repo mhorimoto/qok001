@@ -17338,6 +17338,9 @@ W = angled&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
+<text x="218.44" y="20.32" size="2.54" layer="91">HLED0001</text>
+<text x="162.56" y="7.62" size="3.81" layer="91">8to3 Encoding 
+Eva Board for Larning</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -17635,6 +17638,10 @@ W = angled&lt;p&gt;
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
